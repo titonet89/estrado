@@ -5,6 +5,7 @@
 ### Gestión jurídica profesional para estudios de abogados de Argentina
 
 **[▶ Probar la demo en vivo](https://estrado-demo.vercel.app/acceso)** — se entra con un botón, sin registrarse (datos ficticios).
+&nbsp;·&nbsp; **[Pedir una prueba gratis de 30 días](https://web-alpha-steel-31.vercel.app/prueba)**
 
 ![Panel de inicio de Estrado](capturas/panel-inicio.png)
 
@@ -28,6 +29,7 @@ Estrado es un sistema en la nube para que un estudio jurídico lleve en un solo 
 | 🧾 **Gastos del expediente** | Tasa de justicia, sellados, estampilla profesional, aportes **CAPSAP**, cédulas, edictos…, con reintegros del cliente y balance de cada caso. |
 | 👥 **Equipo** | Roles de titular, abogado/a, secretaría/procuración y colaborador externo, con permisos distintos para cada uno. |
 | 📱 **App instalable** | Se instala en el celular o la computadora (PWA) y se adapta a cualquier pantalla. |
+| 🎁 **Prueba gratis** | Cada estudio nuevo usa el sistema completo durante 30 días; al terminar, sus datos quedan en solo lectura (nunca se pierden) hasta que activa su plan. |
 | 📊 **Listados** | Expedientes y clientes para Excel o impresión, con el balance de cada caso. |
 
 <table>
@@ -83,7 +85,7 @@ flowchart LR
 ## Calidad
 
 - **+100 pruebas de extremo a extremo** con Playwright: flujos completos de ingreso (incluidas passkeys con un autenticador virtual), expedientes, agenda, honorarios, gastos, roles y adaptación al celular.
-- **+70 pruebas de seguridad de la base de datos** con pgTAP: aislamiento entre estudios, permisos por rol, expedientes sensibles y acceso sin 2FA.
+- **+80 pruebas de seguridad de la base de datos** con pgTAP: aislamiento entre estudios, permisos por rol, expedientes sensibles, acceso sin 2FA y modo solo lectura por plan.
 - Base de datos versionada con migraciones y entornos separados (local, demo y producción).
 
 ---
@@ -92,6 +94,6 @@ flowchart LR
 
 **© 2026 — Todos los derechos reservados.** El código fuente de Estrado es privado.
 
-¿Te interesa para tu estudio o querés saber más? Escribime por GitHub.
+¿Te interesa para tu estudio? **[Pedí tu prueba gratis](https://web-alpha-steel-31.vercel.app/prueba)** o **[recorré la demo](https://estrado-demo.vercel.app/acceso)**.
 
 </div>
